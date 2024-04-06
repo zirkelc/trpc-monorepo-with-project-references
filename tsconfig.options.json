@@ -1,0 +1,16 @@
+{
+	"extends": "@tsconfig/node18/tsconfig.json",
+	"compilerOptions": {
+		"lib": [
+			"DOM",
+			"es2023"
+		],
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"incremental": true,
+		"noEmitOnError": true,
+		"skipLibCheck": true
+	}
+}

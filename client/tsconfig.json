@@ -1,0 +1,22 @@
+{
+	"extends": "../tsconfig.options.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@client/*": [
+				"src/*"
+			],
+			"@server": [
+				"../server/src/index.ts"
+			]
+		}
+	},
+	"include": [
+		"src"
+	],
+	"references": [
+		{
+			"path": "../server"
+		}
+	]
+}
